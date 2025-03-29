@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+dist/
+build/
+out/
+.next/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# MongoDB local data
+data/db/
+
+# Local certificates
+*.pem
+*.key
+*.crt
+*.ca-bundle
+
+# Debug files
+debug/
+.debug/
+
+# Client-side dependencies
+.sass-cache/
+bower_components/
+
+# Others
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
